@@ -120,6 +120,10 @@ export default function NFTsHeader({
         }
 
         li {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 8px;
           color: var(--green-40);
           font-weight: 600;
           font-size: 18px;
@@ -131,7 +135,7 @@ export default function NFTsHeader({
         }
 
         li.spacer {
-          border: 1px solid var(--green-80);
+          border: 0.5px solid var(--green-80);
           align-self: stretch;
         }
       `}</style>
