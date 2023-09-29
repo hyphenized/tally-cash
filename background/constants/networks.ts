@@ -199,7 +199,7 @@ export const NETWORKS_SUPPORTING_SWAPS = new Set(
 export const ALCHEMY_SUPPORTED_CHAIN_IDS = new Set(
   // TODO: Add `SEPOLIA` once `ethersproject` adds support for it to v5 (see
   // https://github.com/ethers-io/ethers.js/issues/4374).
-  [ETHEREUM, POLYGON, ARBITRUM_ONE, OPTIMISM, GOERLI].map(
+  [ETHEREUM, POLYGON, ARBITRUM_ONE, OPTIMISM, GOERLI, SEPOLIA].map(
     (network) => network.chainID,
   ),
 )
